@@ -52,7 +52,7 @@ def trend(time, slope=0):
 
 ## Сезонность
 
-Для создания сезонности используются функции `seasonal_pattern` и `seasonality`:
+Для создания сезонности используются функции `seasonal_pattern` и **`seasonality`**:
 
 ```python
 def seasonal_pattern(season_time):
