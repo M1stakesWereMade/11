@@ -26,7 +26,7 @@ pip install numpy matplotlib seaborn plotly
 
 ## Структура кода
 
-Импорт библиотек
+### Импорт библиотек
 
 ```python
 import numpy as np
@@ -134,19 +134,19 @@ def plot_plotly_series(time, series, start=0, end=None, title="Plot", color="blu
 
 ## Пример использования
 
-Пример 1: Тренд
+### Пример 1: Тренд
 
 ![](img/trend_plot_1.png)
 
-Пример 2: Сезонность
+### Пример 2: Сезонность
 
 ![](img/seasonality_plot_1.png)
 
-Пример 3: Белый шум
+### Пример 3: Белый шум
 
 ![](img/noise_plot.png)
 
-Пример 4: Комбинированный график
+### Пример 4: Комбинированный график
 
 ![](img/noise_seasonality_trend_plot.png)
 
