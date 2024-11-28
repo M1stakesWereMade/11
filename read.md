@@ -57,8 +57,8 @@ python time_series_plot.py
 - Для лучшей визуализации в Jupyter Notebook используйте встроенную поддержку Plotly с помощью команды fig.show().
 
 ## Структура кода
-Импорт библиотек
 
+**Импорт библиотек**
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
