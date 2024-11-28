@@ -148,8 +148,6 @@ def plot_plotly_series(time, series, start=0, end=None, title="Plot", color="blu
 
 Пример 4: Комбинированный график
 
-![](img/seasonality_trend_plot_1.png)
-
 ![](img/noise_seasonality_trend_plot.png)
 
 
