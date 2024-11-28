@@ -58,7 +58,7 @@ python time_series_plot.py
 
 ## Структура кода
 
-**Импорт библиотек**
+# Импорт библиотек
 
 ```python
 import numpy as np
