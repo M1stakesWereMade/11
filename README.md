@@ -126,7 +126,8 @@ def plot_seaborn_series(time, series, start=0, end=None, color="blue"):
 ```python
 def plot_plotly_series(time, series, start=0, end=None, title="Plot", color="blue"):
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=time[start:end], y=series[start:end], mode='lines', line=dict(color=color)))
+    fig.add_trace(go.Scatter(x=time[start:end], y=series[start:end], mode='lines',
+    line=dict(color=color)))
     fig.update_layout(title=title, xaxis_title="Время", yaxis_title="Значение")
     fig.show()
 ```
